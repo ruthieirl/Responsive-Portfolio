@@ -1,0 +1,225 @@
+body {
+	background-image: url('../images/bckgrnd.png');
+    background-repeat: repeat;
+	width: 960;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/*regular paragraphs*/
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #777;
+}
+
+/*first paragraph*/
+.first {
+	margin-top: 15px;
+}
+
+/*form labels*/
+.label{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777;
+}
+
+/*footer font*/
+.ftr {
+	color: #fff;
+	font-size: 14px;
+}
+
+header {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	border-bottom: 2px solid #ccc;
+	height: 66px;
+}
+
+/*main heading*/
+h1 {
+	background-color: #4aaaa5;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	font-size: 26px;
+	font-weight: bold;
+	float: left;
+	margin: 0 0 0 85px;
+}
+
+.nav {
+	padding-top: 28px;
+	margin-left: 720px;
+}
+
+/*lists used in nav and social media links*/
+li {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	display: inline;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+}
+
+/*social media links*/
+.smedia {
+	margin-top: 15px;
+}
+
+/*links*/
+a {
+	color: #777;
+	text-decoration: none;
+}
+
+/*main content container div*/
+#container {
+    padding-top: 35px;
+    margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*main content content*/
+#main_cont {
+	padding: 20px;
+	background-color: #fff;
+	margin-left: 85px;
+	border: 1px solid #ddd;
+	width: 560px;
+	float: left;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/*selfie biography portait*/
+#bio_img {
+	float: left; 
+	margin: 10px 20px 10px 0;
+}
+
+/*form elements*/
+input[type=text] {
+	margin-top: 8px; 
+	width: 540px;
+}
+
+input[type=textarea] {
+	margin-top: 8px;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5; 
+	color: #fff; 
+	border: 1px solid #4aaaa5;
+}
+
+/*connect with me box*/
+aside {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	float: left;
+	margin-left: 30px;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 35px 0 35px 0;
+	background-color: #666;
+	width: 100%;
+	color: #fff;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+/*portfolio page*/
+#left_col {
+	float: left; 
+	width: 255px;
+	padding: 0;
+	margin: 0;
+}
+
+#right_col { 
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+#hangman {
+	background-image: url('../images/hangman.jpg');
+	width: 255px;
+	height: 175px;
+	margin: 10px 0 30px 0;
+	padding: 0;
+	position: relative;
+}
+
+/*div headings*/
+.div_hd {
+	color: #fff;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	width: 255px;
+	background-color: #4aaaa5;
+	position: absolute;
+	margin-top: 105px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+}
+
+#trivia {
+	background-image: url('../images/trivia.jpg');
+	width: 255px;
+	height: 175px;
+	margin: 20px 0 30px 0;
+}
+
+#RPS {
+	background-image: url('../images/rock.jpg');
+	width: 255px;
+	height: 175px;
+	margin: 10px 0 30px 0;
+}
+
+#RPG {
+	background-image: url('../images/rpg.jpg');
+	width: 255px;
+	height: 175px;
+	margin: 10px 0 30px 0;
+}
+
+#Rutgers {
+	background-image: url('../images/Rutgers.jpg');
+	width: 255px;
+	height: 175px;
+	margin: 10px 0 30px 0;
+}
