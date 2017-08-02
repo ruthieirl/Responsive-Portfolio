@@ -1,225 +1,268 @@
 body {
-	background-image: url('../images/bckgrnd.png');
-    background-repeat: repeat;
-	width: 960;
-	display: block;
-	margin: 0;
-	padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/bckgrnd.png");
 }
 
-/*regular paragraphs*/
+* {
+  box-sizing: border-box;
+}
+
+/* general */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1,
+h2,
+h3,
 p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 20px;
-	color: #777;
+  margin-bottom: 20px;
 }
 
-/*first paragraph*/
-.first {
-	margin-top: 15px;
+p:last-child {
+  margin-bottom: 0;
 }
 
-/*form labels*/
-.label{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 16px;
-	color: #777;
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
 }
 
-/*footer font*/
-.ftr {
-	color: #fff;
-	font-size: 14px;
-}
-
-header {
-	background-color: #fff;
-	padding: 0;
-	margin: 0;
-	border-bottom: 2px solid #ccc;
-	height: 66px;
-}
-
-/*main heading*/
 h1 {
-	background-color: #4aaaa5;
-	color: #fff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	padding: 20px;
-	font-size: 26px;
-	font-weight: bold;
-	float: left;
-	margin: 0 0 0 85px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
 }
 
-.nav {
-	padding-top: 28px;
-	margin-left: 720px;
+h2,
+h3 {
+  font-size: 22px;
 }
 
-/*lists used in nav and social media links*/
-li {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 16px;
-	display: inline;
-	text-decoration: none;
-	padding: 0 10px 0 10px;
+/* header */
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
 }
 
-/*social media links*/
-.smedia {
-	margin-top: 15px;
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
-/*links*/
-a {
-	color: #777;
-	text-decoration: none;
+nav {
+  float: right;
+  margin-top: 25px;
 }
 
-/*main content container div*/
-#container {
-    padding-top: 35px;
-    margin: 0;
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
 }
 
-.clear {
-	clear: both;
+nav a:first-child {
+  border-left: 0 none;
 }
 
-/*main content content*/
-#main_cont {
-	padding: 20px;
-	background-color: #fff;
-	margin-left: 85px;
-	border: 1px solid #ddd;
-	width: 560px;
-	float: left;
+/* footer */
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
 }
 
-h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	padding: 10px 0 10px 0;
-	font-weight: bold;
-	font-size: 22px;
+/* sidebar */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-/*selfie biography portait*/
-#bio_img {
-	float: left; 
-	margin: 10px 20px 10px 0;
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
 }
 
-/*form elements*/
-input[type=text] {
-	margin-top: 8px; 
-	width: 540px;
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
 }
 
-input[type=textarea] {
-	margin-top: 8px;
+.social:last-child {
+  margin-right: 0;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
 }
 
 input[type=submit] {
-	background-color: #4aaaa5; 
-	color: #fff; 
-	border: 1px solid #4aaaa5;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
 
-/*connect with me box*/
-aside {
-	padding: 20px;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	float: left;
-	margin-left: 30px;
-}
 
-h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    clear: both;
+  }
 
-footer {
-	position: fixed;
-	bottom: 0;
-	padding: 35px 0 35px 0;
-	background-color: #666;
-	width: 100%;
-	color: #fff;
-	border-top: 10px solid #4aaaa5;
-	text-align: center;
-	font-family: Arial;
-	font-size: 10px;
-}
-
-/*portfolio page*/
-#left_col {
-	float: left; 
-	width: 255px;
-	padding: 0;
-	margin: 0;
-}
-
-#right_col { 
-	float: right;
-	padding: 0;
-	margin: 0;
-}
-
-#hangman {
-	background-image: url('../images/hangman.jpg');
-	width: 255px;
-	height: 175px;
-	margin: 10px 0 30px 0;
-	padding: 0;
-	position: relative;
-}
-
-/*div headings*/
-.div_hd {
-	color: #fff;
-	padding: 20px 0 20px 0;
-	text-align: center;
-	width: 255px;
-	background-color: #4aaaa5;
-	position: absolute;
-	margin-top: 105px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 20px;
-}
-
-#trivia {
-	background-image: url('../images/trivia.jpg');
-	width: 255px;
-	height: 175px;
-	margin: 20px 0 30px 0;
-}
-
-#RPS {
-	background-image: url('../images/rock.jpg');
-	width: 255px;
-	height: 175px;
-	margin: 10px 0 30px 0;
-}
-
-#RPG {
-	background-image: url('../images/rpg.jpg');
-	width: 255px;
-	height: 175px;
-	margin: 10px 0 30px 0;
-}
-
-#Rutgers {
-	background-image: url('../images/Rutgers.jpg');
-	width: 255px;
-	height: 175px;
-	margin: 10px 0 30px 0;
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 250px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
 }

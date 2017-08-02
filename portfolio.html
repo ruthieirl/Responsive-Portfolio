@@ -1,112 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<meta charset="UTF-8">
-
-	<!--title shows in browser tab-->
-	<title>Portfolio - Portfolio - Ruth-Esthel Campiz</title>
-	<!--reset stylesheet-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<!--linking external stylesheet-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+  <meta charset="UTF-8">
+  <title>Portfolio | Ruth-Esthel Campiz</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
+
 <body>
-	
-	<!--this is the header section-->
-<header>
-		
-		<!--main title-->
-		<h1>Ruth-Esthel Campiz</h1>
 
-		<!--nav-->
-		<nav>
-		
-			<!--navigation links-->
-			<ul class="nav">
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Ruth Campiz</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-		</nav>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-	</header>
+      <div class="work">
+        <img src="assets/images/hangman.jpg" alt="hangman">
 
-	<div id="container">
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/RPG.jpg" alt="RPG Game">
 
-		<!--main bio section-->
-		<section id="main_cont">
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/trivia.jpg" alt="Trivia Game">
 
-		<!--section title-->
-		<h2>Portfolio</h2>
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/Rutgers.jpg" alt="Rutgers Info Widget">
 
-		<!--horizontal rule-->
-		<hr/>
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/rock.jpg" alt="Rock Paper Scissors">
 
-		<!--left column-->
-		<div id="left_col">
-			
-			<!--Hangman div-->
-			<div id="hangman">
-				<p class="div_hd">Hangman</p>			
-			</div>
+        <h3>Rock Paper Scissors</h3>
+      </div>
 
-			<!--Trivia Game div-->
-			<div id="trivia">
-				<p class="div_hd">Trivia Game</p>
-			</div>
-		
-			<!--Rock Paper Scissors div-->
-			<div id="RPS">
-				<p class="div_hd">Rock Paper Scissors</p>
-			</div>
+    </section>
 
-		</div>
-		
-		<!--right column-->
-		<div id="right_col">
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-			<!--RPG Game div-->
-			<div id="RPG">
-				<p class="div_hd">RPG Game</p>
-			</div>
+        <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-			<!--Rutgers Info Widget div-->
-			<div id="Rutgers">
-				<p class="div_hd">Rutgers Info Widget</p>
-			</div>
-		
-		</div>
-	
-	</section>	
-
-	<!--connect with me aside-->
-	<aside>
-
-		<!--aside title-->
-		<h3>Connect with Me</h3>
-
-		<hr>
-
-		<!--social media links-->
-		<ul class="smedia">
-			<li><a href="https://github.com/ruthieirl" target="_blank"><img src="assets/images/github.png" height="40px" width="40px" alt="github logo"/></a></li>
-			<li><a href="https://www.linkedin.com/in/ruthiecampiz/" target="_blank"><img src="assets/images/linkedin.png" height="40px" width="40px" alt="linkedin logo"/></a></li>
-			<li><a href="https://stackoverflow.com/users/8222071/ruthie-c?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" height="40px" width="40px" alt="stackoverflow logo"/></a></li>
-		</ul>
-	
-	</aside>
-	</div>
-
-	<div class="clear"></div>
-	<!--footer-->
-	<footer>
-		
-		<!--copyright info-->
-		<p class="ftr">&#169; Copyright 2017 Ruth-Esthel Campiz</p>
-
-	</footer>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Ruth-Esthel Campiz
+    </div>
+  </footer>
 </body>
+
 </html>
