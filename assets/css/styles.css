@@ -238,7 +238,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-
+/*media queries*/
 @media screen and (max-width: 980px) {
   .container {
     width: 100%;
@@ -264,5 +264,68 @@ input[type=submit] {
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    background-color: purple;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;  
+  }
+
+  .main-section {
+    background-color: red;
+    width: 100%;
+    max-width: 760px;
+
+  }
+
+  .sidebar {
+    background-color: green;
+    display: static;
+    width: 100%;
+    max-width: 760px;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    background-color: teal;
+    width: 100%;
+  }
+  
+  .main-section {
+    background-color: pink;
+    width: 100%;
+  }
+
+  .sidebar {
+    background-color: purple;
+    width: 100%;
+    text-align: center;
+  }
+
+  #masthead {
+    display: static;
+  }
+}
+
+@media only screen and (max-width: 545px){
+  #logo {
+    width: 100%;
+    max-width: 545px;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    max-width: 545px;
+    text-align: center;
   }
 }
