@@ -264,6 +264,7 @@ input[type=submit] {
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
+    text-align: center;
   }
 
 }
